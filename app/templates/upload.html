@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUMM-IT-ALL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>SUMM-IT-ALL</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="form-row">
+                <div class="form-section">
+                    <h2>Upload a File</h2>
+                    <label for="file">Select File:</label>
+                    <input type="file" name="file" id="file">
+                </div>
+                <div class="form-section">
+                    <h2>Link of YouTube Video</h2>
+                    <label for="link">Enter Link:</label>
+                    <input type="url" name="link" id="link" placeholder="https://example.com">
+                </div>
+            </div>
+
+            <div class="form-row centered-section">
+                <label for="summary_type">Summary Type:</label>
+                <select name="summary_type" id="summary_type">
+                    <option value="short">Short</option>
+                    <option value="medium">Medium</option>
+                    <option value="long">Long</option>
+                </select>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

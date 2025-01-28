@@ -1,0 +1,13 @@
+flask
+ffmpeg-python
+pytesseract
+pdfplumber
+python-docx
+pandas
+transformers
+torch
+pydub 
+openai-whisper 
+vosk
+yt-dlp
+pdf2image
