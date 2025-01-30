@@ -1,6 +1,6 @@
-# Summ-It-All
+# InfoFusion
 
-**Summ It All** is a Python-based text summarization tool that allows you to generate concise summaries from various data formats, including documents, audio, and video. The project leverages the Hugging Face Transformers library for summarization and supports customization of summary lengths (short, medium, and long). It also provides chunking mechanisms to handle large input data seamlessly.
+**InfoFusion** is a Python-based text summarization tool that allows you to generate concise summaries from various data formats, including documents, audio, and video. The project leverages the Hugging Face Transformers library for summarization and supports customization of summary lengths (short, medium, and long). It also provides chunking mechanisms to handle large input data seamlessly.
 
 ---
 
@@ -29,8 +29,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/summ-it-all.git
-   cd summ-it-all
+   git clone https://github.com/your-username/InfoFusion.git
+   cd InfoFusion
    ```
 
 2. Create a virtual environment and activate it:
